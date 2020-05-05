@@ -38,3 +38,58 @@ module.exports = {
 vue add element
 全局、覆盖元素的SCSS变量、中文
 npm run serve
+
+## 配置高效代码块
+
+https://element.eleme.cn/#/zh-CN/component/installation
+
+## 使用bootstra4工具提高开发效率
+
+https://getbootstrap.com/
+
+## 安装vue-router和使用
+
+第一步：
+    npm install vue-router --save
+第二步：
+    src新建router.js
+
+```javascript
+import Vue from "vue"
+import Router from "vue-router"
+
+Vue.use(Router)
+
+export default new Router({
+    routes:[]
+})
+```
+
+第三步：
+    在main.js引入router.js
+
+```javascript
+import Vue from 'vue'
+import App from './App.vue'
+import './plugins/element.js'
+import router from './router.js'
+
+Vue.config.productionTip = false
+
+new Vue({
+  router,
+  render: h => h(App),
+}).$mount('#app')
+```
+
+## vue-router二次封装一
+
+分离和重定向
+
+## vue-router二次封装二
+
+简化component路径
+
+## vue-router二次封装三四
+
+简化path、name属性
