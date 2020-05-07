@@ -93,3 +93,11 @@ new Vue({
 ## vue-router二次封装三四
 
 简化path、name属性
+
+## 登录页开发
+
+UI构建、登陆表单验证实现（element、bootstrap）
+
+## 后台全局布局开发
+
+全局顶、侧部开发
